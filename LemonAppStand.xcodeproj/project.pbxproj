@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF2154818CA0DED00426639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154718CA0DED00426639 /* Foundation.framework */; };
+		FEF2154A18CA0DED00426639 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154918CA0DED00426639 /* CoreGraphics.framework */; };
+		FEF2154C18CA0DED00426639 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154B18CA0DED00426639 /* UIKit.framework */; };
+		FEF2154E18CA0DED00426639 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154D18CA0DED00426639 /* SpriteKit.framework */; };
+		FEF2155418CA0DED00426639 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEF2155218CA0DED00426639 /* InfoPlist.strings */; };
+		FEF2155618CA0DED00426639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2155518CA0DED00426639 /* main.m */; };
+		FEF2155A18CA0DED00426639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2155918CA0DED00426639 /* AppDelegate.m */; };
+		FEF2155D18CA0DED00426639 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF2155B18CA0DED00426639 /* Main_iPhone.storyboard */; };
+		FEF2156018CA0DED00426639 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF2155E18CA0DED00426639 /* Main_iPad.storyboard */; };
+		FEF2156318CA0DED00426639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2156218CA0DED00426639 /* ViewController.m */; };
+		FEF2156618CA0DED00426639 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2156518CA0DED00426639 /* MyScene.m */; };
+		FEF2156818CA0DED00426639 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF2156718CA0DED00426639 /* Spaceship.png */; };
+		FEF2156A18CA0DED00426639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF2156918CA0DED00426639 /* Images.xcassets */; };
+		FEF2157118CA0DED00426639 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2157018CA0DED00426639 /* XCTest.framework */; };
+		FEF2157218CA0DED00426639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154718CA0DED00426639 /* Foundation.framework */; };
+		FEF2157318CA0DED00426639 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF2154B18CA0DED00426639 /* UIKit.framework */; };
+		FEF2157B18CA0DED00426639 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEF2157918CA0DED00426639 /* InfoPlist.strings */; };
+		FEF2157D18CA0DED00426639 /* LemonAppStandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF2157C18CA0DED00426639 /* LemonAppStandTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF2157418CA0DED00426639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF2153C18CA0DEC00426639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF2154318CA0DEC00426639;
+			remoteInfo = LemonAppStand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEF2154418CA0DED00426639 /* LemonAppStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonAppStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF2154718CA0DED00426639 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEF2154918CA0DED00426639 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEF2154B18CA0DED00426639 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEF2154D18CA0DED00426639 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FEF2155118CA0DED00426639 /* LemonAppStand-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LemonAppStand-Info.plist"; sourceTree = "<group>"; };
+		FEF2155318CA0DED00426639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEF2155518CA0DED00426639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEF2155718CA0DED00426639 /* LemonAppStand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LemonAppStand-Prefix.pch"; sourceTree = "<group>"; };
+		FEF2155818CA0DED00426639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEF2155918CA0DED00426639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEF2155C18CA0DED00426639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FEF2155F18CA0DED00426639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FEF2156118CA0DED00426639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEF2156218CA0DED00426639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEF2156418CA0DED00426639 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		FEF2156518CA0DED00426639 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		FEF2156718CA0DED00426639 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FEF2156918CA0DED00426639 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEF2156F18CA0DED00426639 /* LemonAppStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonAppStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF2157018CA0DED00426639 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FEF2157818CA0DED00426639 /* LemonAppStandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LemonAppStandTests-Info.plist"; sourceTree = "<group>"; };
+		FEF2157A18CA0DED00426639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEF2157C18CA0DED00426639 /* LemonAppStandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LemonAppStandTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF2154118CA0DEC00426639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2154A18CA0DED00426639 /* CoreGraphics.framework in Frameworks */,
+				FEF2154C18CA0DED00426639 /* UIKit.framework in Frameworks */,
+				FEF2154E18CA0DED00426639 /* SpriteKit.framework in Frameworks */,
+				FEF2154818CA0DED00426639 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2156C18CA0DED00426639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2157118CA0DED00426639 /* XCTest.framework in Frameworks */,
+				FEF2157318CA0DED00426639 /* UIKit.framework in Frameworks */,
+				FEF2157218CA0DED00426639 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF2153B18CA0DEC00426639 = {
+			isa = PBXGroup;
+			children = (
+				FEF2154F18CA0DED00426639 /* LemonAppStand */,
+				FEF2157618CA0DED00426639 /* LemonAppStandTests */,
+				FEF2154618CA0DED00426639 /* Frameworks */,
+				FEF2154518CA0DED00426639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF2154518CA0DED00426639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2154418CA0DED00426639 /* LemonAppStand.app */,
+				FEF2156F18CA0DED00426639 /* LemonAppStandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF2154618CA0DED00426639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2154718CA0DED00426639 /* Foundation.framework */,
+				FEF2154918CA0DED00426639 /* CoreGraphics.framework */,
+				FEF2154B18CA0DED00426639 /* UIKit.framework */,
+				FEF2154D18CA0DED00426639 /* SpriteKit.framework */,
+				FEF2157018CA0DED00426639 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEF2154F18CA0DED00426639 /* LemonAppStand */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2155818CA0DED00426639 /* AppDelegate.h */,
+				FEF2155918CA0DED00426639 /* AppDelegate.m */,
+				FEF2155B18CA0DED00426639 /* Main_iPhone.storyboard */,
+				FEF2155E18CA0DED00426639 /* Main_iPad.storyboard */,
+				FEF2156118CA0DED00426639 /* ViewController.h */,
+				FEF2156218CA0DED00426639 /* ViewController.m */,
+				FEF2156418CA0DED00426639 /* MyScene.h */,
+				FEF2156518CA0DED00426639 /* MyScene.m */,
+				FEF2156718CA0DED00426639 /* Spaceship.png */,
+				FEF2156918CA0DED00426639 /* Images.xcassets */,
+				FEF2155018CA0DED00426639 /* Supporting Files */,
+			);
+			path = LemonAppStand;
+			sourceTree = "<group>";
+		};
+		FEF2155018CA0DED00426639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2155118CA0DED00426639 /* LemonAppStand-Info.plist */,
+				FEF2155218CA0DED00426639 /* InfoPlist.strings */,
+				FEF2155518CA0DED00426639 /* main.m */,
+				FEF2155718CA0DED00426639 /* LemonAppStand-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF2157618CA0DED00426639 /* LemonAppStandTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2157C18CA0DED00426639 /* LemonAppStandTests.m */,
+				FEF2157718CA0DED00426639 /* Supporting Files */,
+			);
+			path = LemonAppStandTests;
+			sourceTree = "<group>";
+		};
+		FEF2157718CA0DED00426639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF2157818CA0DED00426639 /* LemonAppStandTests-Info.plist */,
+				FEF2157918CA0DED00426639 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF2154318CA0DEC00426639 /* LemonAppStand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF2158018CA0DED00426639 /* Build configuration list for PBXNativeTarget "LemonAppStand" */;
+			buildPhases = (
+				FEF2154018CA0DEC00426639 /* Sources */,
+				FEF2154118CA0DEC00426639 /* Frameworks */,
+				FEF2154218CA0DEC00426639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonAppStand;
+			productName = LemonAppStand;
+			productReference = FEF2154418CA0DED00426639 /* LemonAppStand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF2156E18CA0DED00426639 /* LemonAppStandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF2158318CA0DED00426639 /* Build configuration list for PBXNativeTarget "LemonAppStandTests" */;
+			buildPhases = (
+				FEF2156B18CA0DED00426639 /* Sources */,
+				FEF2156C18CA0DED00426639 /* Frameworks */,
+				FEF2156D18CA0DED00426639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF2157518CA0DED00426639 /* PBXTargetDependency */,
+			);
+			name = LemonAppStandTests;
+			productName = LemonAppStandTests;
+			productReference = FEF2156F18CA0DED00426639 /* LemonAppStandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF2153C18CA0DEC00426639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cutsinger, Paul";
+				TargetAttributes = {
+					FEF2156E18CA0DED00426639 = {
+						TestTargetID = FEF2154318CA0DEC00426639;
+					};
+				};
+			};
+			buildConfigurationList = FEF2153F18CA0DEC00426639 /* Build configuration list for PBXProject "LemonAppStand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF2153B18CA0DEC00426639;
+			productRefGroup = FEF2154518CA0DED00426639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF2154318CA0DEC00426639 /* LemonAppStand */,
+				FEF2156E18CA0DED00426639 /* LemonAppStandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF2154218CA0DEC00426639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2156818CA0DED00426639 /* Spaceship.png in Resources */,
+				FEF2156A18CA0DED00426639 /* Images.xcassets in Resources */,
+				FEF2156018CA0DED00426639 /* Main_iPad.storyboard in Resources */,
+				FEF2155D18CA0DED00426639 /* Main_iPhone.storyboard in Resources */,
+				FEF2155418CA0DED00426639 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2156D18CA0DED00426639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2157B18CA0DED00426639 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF2154018CA0DEC00426639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2156618CA0DED00426639 /* MyScene.m in Sources */,
+				FEF2156318CA0DED00426639 /* ViewController.m in Sources */,
+				FEF2155A18CA0DED00426639 /* AppDelegate.m in Sources */,
+				FEF2155618CA0DED00426639 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF2156B18CA0DED00426639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF2157D18CA0DED00426639 /* LemonAppStandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF2157518CA0DED00426639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF2154318CA0DEC00426639 /* LemonAppStand */;
+			targetProxy = FEF2157418CA0DED00426639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEF2155218CA0DED00426639 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2155318CA0DED00426639 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEF2155B18CA0DED00426639 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2155C18CA0DED00426639 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF2155E18CA0DED00426639 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2155F18CA0DED00426639 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF2157918CA0DED00426639 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF2157A18CA0DED00426639 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF2157E18CA0DED00426639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF2157F18CA0DED00426639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF2158118CA0DED00426639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LemonAppStand/LemonAppStand-Prefix.pch";
+				INFOPLIST_FILE = "LemonAppStand/LemonAppStand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEF2158218CA0DED00426639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LemonAppStand/LemonAppStand-Prefix.pch";
+				INFOPLIST_FILE = "LemonAppStand/LemonAppStand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEF2158418CA0DED00426639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LemonAppStand.app/LemonAppStand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LemonAppStand/LemonAppStand-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LemonAppStandTests/LemonAppStandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FEF2158518CA0DED00426639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LemonAppStand.app/LemonAppStand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LemonAppStand/LemonAppStand-Prefix.pch";
+				INFOPLIST_FILE = "LemonAppStandTests/LemonAppStandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF2153F18CA0DEC00426639 /* Build configuration list for PBXProject "LemonAppStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2157E18CA0DED00426639 /* Debug */,
+				FEF2157F18CA0DED00426639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF2158018CA0DED00426639 /* Build configuration list for PBXNativeTarget "LemonAppStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2158118CA0DED00426639 /* Debug */,
+				FEF2158218CA0DED00426639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEF2158318CA0DED00426639 /* Build configuration list for PBXNativeTarget "LemonAppStandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF2158418CA0DED00426639 /* Debug */,
+				FEF2158518CA0DED00426639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF2153C18CA0DEC00426639 /* Project object */;
+}
